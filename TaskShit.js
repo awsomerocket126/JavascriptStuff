@@ -15,6 +15,12 @@ const tasks = [
   ];
 
 function taskChecker(inputTasks = tasks) { //default value is the tasks from earlier
-
+    let Output = [];
+    for (let items of inputTasks) { // so here im looking into if the task is actually done, ill work more on it later
+        if (!items.done) {
+            Output.push(`You need to complete ${this.task}`);
+        }
+    }
+return Output.join(" and ");
 }
-taskChecker
+taskChecker();
