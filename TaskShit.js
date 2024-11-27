@@ -9,9 +9,9 @@ This is a work in progress as of 11/26/2024
 
 const tasks = [
     { name: "A", dependsOn: [], task: "change tires on the shitty honda civic sitting on cinderblocks in the front yard", done: false},
-    { name: "B", dependsOn: ["A"], task: "jack off", done: false},
+    { name: "B", dependsOn: ["A"], task: "Get mad at a roblox obby and punch a hole in the wall", done: false},
     { name: "C", dependsOn: ["B"], task: "sell crack", done: false},
-    { name: "D", dependsOn: ["A", "B", "C"], task: "kill myself", done: false},
+    { name: "D", dependsOn: ["A", "B", "C"], task: "Praise Terry Davis and code in Holy C on TempleOS", done: false},
   ];
 
 function taskChecker(inputTasks = tasks) { //default value is the tasks from earlier
