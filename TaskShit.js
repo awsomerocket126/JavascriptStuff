@@ -1,5 +1,5 @@
 /* 
-The prompt for this was creating by CHATGPT; The prompt follows:
+The prompt for this was created by CHATGPT; The prompt follows:
 
 Write a function that takes in a list of tasks, where each task has dependencies on other tasks, and returns a sequence in which the tasks can be completed. 
 If the tasks have circular dependencies, the function should detect and handle them.
