@@ -23,4 +23,4 @@ function taskChecker(inputTasks = tasks) { //default value is the tasks from ear
     }
 return Output.join(" and ");
 }
-taskChecker();
+taskChecker(); // i will likely never complete otherwise from some obscene reason from the depths of hell I am so bored to do so
